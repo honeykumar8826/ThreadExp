@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadExecutor">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/spacing_medium"/>
+
+    <Button
+        android:layout_below="@id/img1"
+        android:id="@+id/btn_thread_pool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread Pool Start"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ThreadExp</string>
+    <string name="hello">hello</string>
+    <string name="loop_value">loop value</string>
+    <string name="start_countdown">Start CountDown</string>
+    <string name="toast_open">Toast Open</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="start_downloading">Start Downloading</string>
+    <string name="_0">0%</string>
+    <string name="cancel_downloading">Cancel Downloading</string>
+    <string name="async_task_run">Async Task Run</string>
+    <string name="percent_sign">%</string>
+</resources>

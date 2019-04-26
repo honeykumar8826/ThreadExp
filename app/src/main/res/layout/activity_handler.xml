@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandlerActivity">
+
+    <Button
+        android:id="@+id/btn_start_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_downloading" />
+
+    <TextView
+        android:id="@+id/download_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_start_download"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size_medium" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/spacing_3x"
+        android:indeterminate="false"
+        android:max="100"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/btn_next_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:text="@string/next_activity" />
+
+
+</RelativeLayout>
